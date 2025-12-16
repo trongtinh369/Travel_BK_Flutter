@@ -1,0 +1,50 @@
+[33ma36a7fc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mnhat[m[33m)[m feat: integrate participant API and map response to model
+[33mc027a8e[m Refactor : Schedule_tourmanager_screen.
+[33m386c1f2[m[33m ([m[1;31morigin/nhat[m[33m)[m fix: update logic to match new API changes
+[33mf458f16[m feat: fix ListView overlap with add button, design hainh2 assignment screen UI, and integrate API
+[33mb3a372b[m Refactor: API integration for tripScreen
+[33m2cdadb5[m merge dev
+[33m34c0996[m Merge pull request #8 from nppnam05/dev_thuong
+[33m90dd6e5[m move files
+[33mb583226[m Merge remote-tracking branch 'origin/dev_nam' into dev_thuong
+[33m1b829c0[m update textinput
+[33m2215751[m Merge pull request #7 from nppnam05/dev_thuong
+[33macdd6e5[m call api get activity, province, place, location activity
+[33m7910051[m done otp_input
+[33m71b8598[m update get activities, places
+[33mc378570[m get province, place, location activity
+[33mffcc5f3[m Fix: selection logic to compare by value instead of display string
+[33m1826fe2[m get activities
+[33m710dddc[m Merge pull request #5 from nppnam05/dev_tinh
+[33m34b7e4f[m Merge pull request #4 from nppnam05/nhat
+[33mfc881b5[m lichtrinh
+[33mf517cd6[m Refactor:Schedule_screen , Participants_screen
+[33mf097eaa[m Merge branch 'dev' into dev_nam
+[33me93c2b8[m auth_screen done
+[33m1dc3280[m Refactor : Managerment trip screen
+[33m7e676eb[m drawer
+[33md695b22[m TextInputField done
+[33ma966376[m  When the users confirm without selected any items , the dialog returns a empty result.
+[33mafc9274[m Refactor: replace  awesome_dialog  with custom Selcteddialog
+[33ma9d0f0a[m conflic
+[33m10beb37[m Merge branch 'dev' into dev_tinh
+[33m44ecb1c[m refactor: Dialog
+[33m960732b[m xong drawer bar
+[33md2e3610[m drawer emnu
+[33m2f0ae57[m Merge pull request #3 from nppnam05/dev_vinh
+[33mc1643c4[m fix pick image
+[33m5c68440[m xong menu
+[33mc8871e3[m refactor: replace dialogs with  awesome_dialog package
+[33mbf63170[m fix dropdow, fix search
+[33mb6d07c8[m Widgets
+[33m8bf7d10[m change name and remove un use
+[33m8e6bff3[m fix dialog scroll
+[33m93c31dd[m  change color
+[33m1608d05[m fix bug dropdown_widget
+[33m37b6711[m create widget use for many screen
+[33m25f4ec2[m config firebase
+[33m7821ece[m Merge pull request #2 from nppnam05/dev_thuong
+[33mddb7a0b[m build scaffold
+[33mbf6080c[m Merge pull request #1 from nppnam05/dev_thuong
+[33m79b6eb9[m add comments
+[33m9d5a0a0[m[33m ([m[1;31morigin/main[m[33m)[m first commit
