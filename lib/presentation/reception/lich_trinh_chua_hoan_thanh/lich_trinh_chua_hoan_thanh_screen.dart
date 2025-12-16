@@ -70,7 +70,6 @@ class LichTrinhChuaHoanThanhScreen extends StatelessWidget {
     
     // lay booking ra theo id lich trinh
     final userCompletedForThisSchedule = state.booking[scheduleReception.id] ?? [];
-    print("hehehe ${userCompletedForThisSchedule.length}");
 
     // lay sl nguoi da coc, thanh toan
     int countByStatus(List<Booking> list, int statusId) {
@@ -140,7 +139,7 @@ class LichTrinhChuaHoanThanhScreen extends StatelessWidget {
                             children: [
                               Icon(Icons.park, size: 20, color: AppColors.button),
                               Text(
-                                "${scheduleReception.tour.title.substring(0, 20)} ...",
+                                "${_cutStr(scheduleReception.tour.title)}",
                                 style: AppFonts.text14.copyWith(
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -217,5 +216,15 @@ class LichTrinhChuaHoanThanhScreen extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  String _cutStr(String str){
+    var temp = str.split(" ");
+    var countTemp = temp.length > 6 ? temp.sublist(0,6) : temp;
+    var newStr = countTemp.join(" ");
+    if(temp.length > 6){
+      newStr += "...";
+    }
+    return newStr;
   }
 }
